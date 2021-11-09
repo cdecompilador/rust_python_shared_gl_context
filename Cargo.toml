@@ -1,0 +1,12 @@
+[package]
+name = "testing"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+name = "testing"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.10.1", features = ["extension-module"] }
+gl = "0.14.0"
